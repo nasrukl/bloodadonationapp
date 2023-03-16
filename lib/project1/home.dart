@@ -12,6 +12,10 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final CollectionReference donor =
       FirebaseFirestore.instance.collection('donors');
+
+      void deleteDonor(docId){
+        donor.doc(docId).delete();
+      }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -99,7 +103,9 @@ class _HomePageState extends State<HomePage> {
                               color: Colors.blue,
                             ),
                             IconButton(
-                              onPressed: () {},
+                              onPressed: () {
+                                deleteDonor(donorSnap.id);
+                              },
                               icon: Icon(Icons.delete),
                               iconSize: 30,
                               color: Colors.red,
