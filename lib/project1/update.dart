@@ -34,7 +34,7 @@ class _UpdateDonorState extends State<UpdateDonor> {
     donorName.text = args['name'];
     donorphone.text = args['mobile'];
     selectedGroup = args['group'];
-    final docId = ['id'];
+    final docId = args['id'];
 
     return Scaffold(
       appBar: AppBar(
