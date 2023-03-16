@@ -86,7 +86,7 @@ class _UpdateDonorState extends State<UpdateDonor> {
             ElevatedButton(
               onPressed: () {
                 updateDonor(docId);
-                // Navigator.pop(context);
+                Navigator.pop(context);
               },
               style: ButtonStyle(
                 minimumSize:
