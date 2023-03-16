@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "129405015851",
+    "project_id": "bloodappnasru",
+    "storage_bucket": "bloodappnasru.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129405015851:android:d1545107ea0bfbb73c176e",
+        "android_client_info": {
+          "package_name": "com.example.bdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129405015851-cskb48seo0f9er5gdfefd6hjumle48kc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bdk",
+            "certificate_hash": "06ce9c4fa46b8a47b36a2f5bb3c1c8e37992ab5d"
+          }
+        },
+        {
+          "client_id": "129405015851-6te6vpa7hul09u8vqp24pe57mdnm1bp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNZpEdKFlpcjNR7LfVqARuoVzAFptZnlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129405015851-6te6vpa7hul09u8vqp24pe57mdnm1bp6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "129405015851-5qjvtmotj6hp7qg598kjlohh6f4rb3c3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bdk"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
