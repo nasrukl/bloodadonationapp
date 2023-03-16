@@ -13,9 +13,10 @@ class _HomePageState extends State<HomePage> {
   final CollectionReference donor =
       FirebaseFirestore.instance.collection('donors');
 
-      void deleteDonor(docId){
-        donor.doc(docId).delete();
-      }
+  void deleteDonor(docId) {
+    donor.doc(docId).delete();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,10 +31,11 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.red,
         child: const Icon(
           Icons.add,
+          color: Colors.white,
           size: 40,
         ),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      floatingActionButtonLocation: FloatingActionButtonLocation.miniEndFloat,
       body: StreamBuilder(
         stream: donor.orderBy('name').snapshots(),
         builder: (context, AsyncSnapshot snapshot) {
